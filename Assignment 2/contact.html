@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <section id="contact" class="section">
+            <h2>Contact Me</h2>
+
+            <form class="contact-form" action="#" method="get">
+                <table>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td>
+                            <input type="text" name="username" id="name"
+                                   placeholder="Enter your name"
+                                   pattern="[A-Za-z ]+" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>
+                            <input type="email" name="email" id="email"
+                                   placeholder="Enter your email" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="message">Message</label></td>
+                        <td>
+                            <textarea name="message" id="message"
+                                      placeholder="Enter your message"
+                                      required></textarea>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="submit-cell">
+                    <button type="submit">SEND</button>
+                    <button type="reset">RESET</button>
+                </div>
+            </form>
+        </section>
+    <button><a href="./index.html">Go Back</a></button>
+
+    
+</body>
+</html>

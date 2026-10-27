@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f3f5;
+    color: #222;
+    text-align: center;
+}
+
+/* Navigation bar */
+.navbar {
+    background: #073db8;
+    color: white;
+    margin: 18px 3% 0;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar h1 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 22px 4%;
+    position: relative;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin: 0 0 18px;
+    position: static;
+}
+
+/* Profile image */
+.profile-image {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    position: relative;
+    top: 2px;
+}
+
+.intro {
+    max-width: 650px;
+    margin: 10px auto;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Horizontal line */
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 8px 2%;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#projects li {
+    width: min(420px, 90%);
+    margin: 10px auto;
+    padding: 18px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 5px #0000000b;
+    position: relative;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+#projects li strong {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* Technical skills table */
+.skills-table,
+.contact-form table {
+    width: min(420px, 90%);
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+}
+
+.skills-table th,
+.skills-table td,
+.contact-form td {
+    border: 1px solid #64748b;
+    padding: 7px;
+}
+
+.skills-table thead {
+    background: #073db8;
+    color: white;
+}
+
+/* Contact form */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #aaa;
+    font: inherit;
+    font-size: 12px;
+}
+
+.contact-form textarea {
+    min-height: 42px;
+    resize: vertical;
+}
+
+.contact-form td:first-child {
+    width: 25%;
+}
+
+.contact-form td:last-child {
+    width: 75%;
+}
+
+.submit-cell {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact-form button,
+.back-to-top {
+    background: #073db8;
+    color: white;
+    border: 0;
+    padding: 9px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+    margin: 4px;
+}
+
+.contact-form button:hover,
+.back-to-top:hover {
+    background: #052d8a;
+}
+
+/* Footer */
+.footer {
+    border-top: 4px solid #073db8;
+    margin: 0 3%;
+    padding: 12px;
+    font-size: 12px;
+}
+
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    right: 4%;
+    bottom: 18px;
+}
+
+

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="home">
+
+    <header class="navbar">
+        <h1>Welcome to my Portfolio!</h1>
+
+        <nav>
+            <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./project.html">Projects</a></li>
+                <li><a href="./skills.html">Skills</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+
+            <a href="./about.html">
+                <img class="profile-image" src="./profile.jpeg"
+                     alt="Profile Picture" width="180">
+            </a>
+
+            <p class="intro">
+                Hello! Myself Vaishnavi Pandey. I am a B.Tech CSE student
+                interested in web development and AI. Here you can explore
+                my projects, skills and interests.
+            </p>
+
+            
+        </section>
+
+        <hr>
+
+        
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+
+            <ul>
+                <li>
+                    <strong>Portfolio Website:</strong>
+                    A personal one-page website to showcase your bio,
+                    skills, and contact details.
+                </li>
+
+                <li>
+                    <strong>Calculator:</strong>
+                    A simple calculator project for performing basic mathematical operations
+                    only with HTML and CSS.
+                </li>
+
+                <li>
+                    <strong>Online Quiz Platform:</strong>
+                    A web-based quiz system where users can answer multiple-choice questions
+                    and receive their scores.
+                </li>
+
+                <li>
+                    <strong>User Form:</strong>
+                    A form webpage with fields like name, email,
+                    and message for practicing form handling.
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>HTML</th>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <th>CSS</th>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <th>Python</th>
+                        <td>Learning</td>
+                    </tr>
+                    <tr>
+                        <th>C Programming</th>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+
+            <form class="contact-form" action="#" method="get">
+                <table>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td>
+                            <input type="text" name="username" id="name"
+                                   placeholder="Enter your name"
+                                   pattern="[A-Za-z ]+" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>
+                            <input type="email" name="email" id="email"
+                                   placeholder="Enter your email" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="message">Message</label></td>
+                        <td>
+                            <textarea name="message" id="message"
+                                      placeholder="Enter your message"
+                                      required></textarea>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="submit-cell">
+                    <button type="submit">SEND</button>
+                    <button type="reset">RESET</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+    <a class="back-to-top" href="#home">Back to Top</a>
+
+</body>
+</html>
